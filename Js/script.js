@@ -25,8 +25,8 @@ const favouriteColor = prompt('Qual è il tuo colore preferito?', 'Verde');
 console.log(favouriteColor);
 
 //Creo variabile 21
-const  lastNumbers = 21;
-console.log(String(lastNumbers));
+const  lastNumbers = '21';
+console.log(lastNumbers);
 
 //Stampo in pagina ( Senza spazio fra le parole)
 targetElement.innerText = `${firstName}${lastName}${favouriteColor}${lastNumbers}`;
